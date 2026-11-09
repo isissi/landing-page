@@ -25,6 +25,7 @@
     .container{width:100%!important}
     .px{padding-left:24px!important;padding-right:24px!important}
     .hero-pad{padding:36px 24px 0!important}
+    .hero-img{padding:0 24px!important}
     .h1{font-size:30px!important;line-height:36px!important}
     .h2{font-size:22px!important;line-height:28px!important}
     .stat{display:block!important;width:100%!important;border-left:0!important;border-top:1px solid #cfe3f7!important;padding:16px 0!important}
@@ -80,10 +81,11 @@
             </td>
           </tr></table>
           <p style="margin:14px 0 36px;font-family:Arial,Helvetica,sans-serif;font-size:13px;line-height:20px;color:#8fb3dc;">Free &nbsp;·&nbsp; No prep needed &nbsp;·&nbsp; In person at MASA or by video</p>
-
-          <!-- Product shot, sits on the bottom edge of the hero -->
-          <a href="{{BOOKING_URL}}" style="text-decoration:none;">
-            <img src="https://raw.githubusercontent.com/isissi/landing-page/main/assets/masa-email-dashboard.jpg" width="520" alt="Proserva renewal dashboard: renewal hours remaining, Minnesota requirement criteria and next renewal date" style="width:100%;max-width:520px;border-radius:12px 12px 0 0;font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#c9def5;">
+        </td></tr>
+        <!-- Product shot, sits on the bottom edge of the hero (font-size/line-height 0 stops a gap line under the image) -->
+        <tr><td class="hero-img" align="center" bgcolor="#062860" style="padding:0 40px;background:#062860;font-size:0;line-height:0;">
+          <a href="{{BOOKING_URL}}" style="display:block;text-decoration:none;">
+            <img src="https://raw.githubusercontent.com/isissi/landing-page/main/assets/masa-email-dashboard.jpg" width="520" alt="Proserva renewal dashboard: renewal hours remaining, Minnesota requirement criteria and next renewal date" style="display:block;width:100%;max-width:520px;margin:0 auto;border-radius:12px 12px 0 0;font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:20px;color:#c9def5;">
           </a>
         </td></tr>
 
@@ -149,7 +151,7 @@
         <tr><td class="px" style="padding:0 40px 40px;font-family:Arial,Helvetica,sans-serif;">
           <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-top:1px solid #eaecf0;"><tr><td style="padding-top:32px;">
             <p style="margin:0 0 20px;font-size:16px;line-height:26px;color:#344054;">Spots during MASA fill quickly. Pick a time that fits around your sessions:</p>
-            <table role="presentation" class="btn-full" cellpadding="0" cellspacing="0" border="0"><tr>
+            <table role="presentation" class="btn-full" cellpadding="0" cellspacing="0" border="0" align="center" style="margin:0 auto;"><tr>
               <td align="center" bgcolor="#0284fe" style="border-radius:10px;">
                 <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" href="{{BOOKING_URL}}" style="height:50px;v-text-anchor:middle;width:240px;" arcsize="18%" stroke="f" fillcolor="#0284fe"><w:anchorlock/><center style="color:#ffffff;font-family:Arial,sans-serif;font-size:16px;font-weight:bold;">Choose a time &rarr;</center></v:roundrect><![endif]-->
                 <!--[if !mso]><!-- --><a class="btn" href="{{BOOKING_URL}}" style="display:inline-block;padding:15px 30px;font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:20px;font-weight:bold;color:#ffffff;text-decoration:none;border:1px solid #0284fe;border-radius:10px;background:#0284fe;">Choose a time &rarr;</a><!--<![endif]-->
@@ -167,7 +169,7 @@
     <!-- Footer -->
     <tr><td class="px" align="center" style="padding:28px 40px 0;font-family:Arial,Helvetica,sans-serif;">
       <p style="margin:0 0 12px;font-size:13px;line-height:20px;">
-        <a href="https://www.proserva.co/schools-and-districts" style="color:#475467;text-decoration:none;">Schools &amp; Districts</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://www.proserva.co/blog" style="color:#475467;text-decoration:none;">Blog</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://www.proserva.co/about" style="color:#475467;text-decoration:none;">About</a>
+        <a href="https://www.proserva.co/schools-and-districts" style="color:#475467;text-decoration:none;">Schools &amp; Districts</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://www.proserva.co/teachers" style="color:#475467;text-decoration:none;">Teacher Prep Programs</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://www.proserva.co/state-agencies" style="color:#475467;text-decoration:none;">State Agencies</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://www.proserva.co/blog" style="color:#475467;text-decoration:none;">Blog</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://www.proserva.co/about" style="color:#475467;text-decoration:none;">About</a>
       </p>
       <p style="margin:0 0 8px;font-size:12px;line-height:18px;color:#667085;">You’re receiving this because you connected with Proserva or registered for MASA.<br>{{COMPANY_POSTAL_ADDRESS}}</p>
       <p style="margin:0;font-size:12px;line-height:18px;color:#667085;"><a href="{{UNSUBSCRIBE_URL}}" style="color:#667085;text-decoration:underline;">Unsubscribe</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://www.proserva.co/privacy-policy" style="color:#667085;text-decoration:underline;">Privacy Policy</a></p>
