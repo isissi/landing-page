@@ -16,12 +16,11 @@ Standalone marketing assets for Proserva's MASA (Minnesota) conference outreach.
 
 ## Before sending the email
 
-Replace these placeholders with your email platform's merge tags or real links:
+All links in the email are blank (`href="#"`). Add the real URLs in your email platform, including the booking, view-in-browser and unsubscribe links.
+
+Replace these placeholders with your email platform's merge tags:
 
 - `{{FIRST_NAME}}` (set a fallback such as "there")
-- `{{BOOKING_URL}}`
-- `{{VIEW_IN_BROWSER_URL}}`
-- `{{UNSUBSCRIBE_URL}}`
 - `{{COMPANY_POSTAL_ADDRESS}}`
 
 Suggested subject line: **15 Minutes at MASA Could Save Your Team 1,000+ Hours**
