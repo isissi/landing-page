@@ -24,6 +24,6 @@ Replace these placeholders with your email platform's merge tags or real links:
 - `{{UNSUBSCRIBE_URL}}`
 - `{{COMPANY_POSTAL_ADDRESS}}`
 
-Suggested subject line: **15 minutes at MASA could save your team 1,000+ hours**
+Suggested subject line: **15 Minutes at MASA Could Save Your Team 1,000+ Hours**
 
 The logo and screenshot load from `https://raw.githubusercontent.com/isissi/landing-page/main/assets/`, which only works while this repository is public. For production, upload both files in `assets/` to your email platform and swap the `src` URLs.
