@@ -8,6 +8,7 @@ Standalone marketing assets for Proserva's MASA (Minnesota) conference outreach.
 | `proserva-masa-email.html` | Short HTML email for MASA, built from the MASA landing page content. Table-based layout with inline styles for Gmail, Outlook and Apple Mail. |
 | `assets/proserva-logo.png` | Proserva logo used by the email. |
 | `assets/masa-email-dashboard.jpg` | Product screenshot used in the email hero. |
+| `assets/cam-bayly.jpg` | Cam Bayly headshot used in the email sign-off. |
 
 ## Preview
 
@@ -25,4 +26,4 @@ Replace these placeholders with your email platform's merge tags:
 
 Suggested subject line: **15 Minutes at MASA Could Save Your Team 1,000+ Hours**
 
-The logo and screenshot load from `https://raw.githubusercontent.com/isissi/landing-page/main/assets/`, which only works while this repository is public. For production, upload both files in `assets/` to your email platform and swap the `src` URLs.
+The logo, screenshot and headshot load from `https://raw.githubusercontent.com/isissi/landing-page/main/assets/`, which only works while this repository is public. For production, upload the files in `assets/` to your email platform and swap the `src` URLs.
