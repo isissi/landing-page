@@ -7,7 +7,7 @@ Standalone marketing assets for Proserva's MASA (Minnesota) conference outreach.
 | `proserva-masa.html` | Standalone copy of the redesigned MASA landing page. Opens by double-click; images are embedded, the Wistia video needs an internet connection. |
 | `proserva-masa-email.html` | Short HTML email for MASA, built from the MASA landing page content. Table-based layout with inline styles for Gmail, Outlook and Apple Mail. |
 | `assets/proserva-logo.png` | Proserva logo used by the email. |
-| `assets/masa-email-dashboard.jpg` | Product screenshot used in the email hero. |
+| `assets/masa-email-dashboard.png` | Product screenshot used in the email hero. |
 | `assets/cam-bayly.jpg` | Cam Bayly headshot used in the email sign-off. |
 
 ## Preview
